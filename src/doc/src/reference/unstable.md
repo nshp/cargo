@@ -29,8 +29,7 @@ in build scripts:
 * [`cargo:rustc-link-arg-bins=FLAG`](#rustc-link-arg-bins) — Passes custom
   flags to a linker for bin crates.
 * [`cargo:rustc-link-arg=FLAG`](#rustc-link-arg) — Passes custom
-  flags to a linker for `cdylib` crates, `bin` crates, examples binaries,
-  benchmarks, and tests.
+  flags to a linker for all supported crates.
 
 <a id="rustc-link-arg-bins"></a>
 #### `cargo:rustc-link-arg-bins=FLAG`
